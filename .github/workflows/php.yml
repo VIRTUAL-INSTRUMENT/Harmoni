@@ -1,0 +1,194 @@
+name: PHP Composer
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:irc / (Redirected from #microformats chat)
+Jump to navigationJump to search
+
+Join the microformats chat room to ask questions you have about microformats, learn how to contribute to the community, and to meet other people who are interested in microformats.
+Formally hosted on IRC exclusively, the microformats chat is now available on:
+Discord
+Slack
+Matrix
+IRC (hosted on libera.chat)
+All of our chat rooms are bridged which means a message you send will be received by people who use any supported platform. Our chat rooms are all called #microformats.
+All people who are working with, or are curious about, microformats are welcome to join the community.
+
+Contents
+1	Quick Start
+2	Logs
+2.1	logs status
+3	People on IRC
+4	Bots on IRC
+4.1	Previous Bots
+4.1.1	Greeting Bot
+5	Getting started with IRC
+5.1	Joining a server and channel
+5.2	Creating a registered nickname
+5.3	Communicating
+6	Clients
+6.1	Windows
+6.2	Mac
+6.3	Cross-platform
+7	meetups
+8	IRC and microformats
+8.1	hCard
+9	Related discussions
+10	See also
+shortURL
+http://ufs.cc/w/irc
+Quick Start
+You may use a IRC client application such as Colloquy (Mac or iOS) or Yaaic on Android to join:
+irc://irc.libera.chat/microformats
+
+
+The microformats IRC channel is hosted on the libera.chat server. See help for further information and use of client applications which provide additional services (authenticated nicknames, logging, etc.).
+Logs
+Recent logs of the #microformats IRC channel can be found at:
+https://chat.indieweb.org/microformats
+Older logs can be found at the following locations for the following periods:
+2011-02-12–current at https://chat.indieweb.org/microformats (switched from Freenode to Libera.Chat on 2021-05-26)
+2009-02-20–2021-05-26 at freenode.logbot.info microformats IRC Logs (continued to log Freenode even after 2021-05-26, then stopped on 2021-06-14)
+2013-10-28 (partial) - 2016-01-29 (partial) at krijnhoetmer microformats IRC Logs
+2013-08-11 (partial) - 2013-09-17 (partial) at krijnhoetmer microformats IRC Logs
+2012-10-09 (partial) - 2013-08-07 at krijnhoetmer microformats IRC Logs
+2012-07-26 - 2012-09-16 (partial) at krijnhoetmer microformats IRC Logs
+2009-02-20 - 2012-06-21 (partial) at krijnhoetmer microformats IRC Logs
+2011-04-05 at rbach microformats IRC Logs
+2011-02-24 - 2011-03-03 at rbach microformats IRC Logs
+2009-08-28 - 2010-09-27 at rbach microformats IRC Logs
+2009-03-26 - 2009-06-29 at rbach microformats IRC Logs
+2009-02-09 - 2009-02-20 missing. if anyone has any logs for this time period, please upload them and add links here.
+2009-01-14 - 2009-02-09 at rbach microformats IRC Logs
+2008-08-25 - 2009-01-14 at krijnhoetmer microformats IRC Logs
+2008-08-16 - 2008-08-24 missing. if anyone has any logs for this time period, please upload them and add links here.
+2005-11-16 - 2008-08-16 at rbach microformats IRC Logs
+Until sometime on 2007-07-16, there was an atom feed provided for the rbach IRC Logs.
+logs status
+logbot.glob.com.au microformats IRC Logs are current and live
+krijnhoetmer microformats IRC Logs appears to have stopped logging as of 2016-01.
+I emailed and heard back from Krijn on 2016-03-19 "Yeah, sorry, I know, server resources are very low for that (old) machine. I think it's sort of EOL.." [1] -- gRegor
+rbach IRC Logs appear to have stopped logging as of 2009-06-29.
+People on IRC
+See our list of IRC regulars and their normal timezones.
+Our channel has regular admins, who are also mailing list and wiki admins. If you want to get their attention, just say "adminhelp".
+Bots on IRC
+The IRC channel uses these bots:
+Loqi - logs IRC, posts notifications to IRC of wiki edits
+If Loqi is missing, see https://indieweb.org/Loqi for instructions
+If Wiki edits are missing, ask an admin for "adminhelp", and reference admin how-to
+Previous Bots
+These bots were active ~2005-2009? (actual dates can likely be confirmed by checking old IRC logs)
+mfbot - logs all edits to this wiki. (Contact: Ryan King)
+mflogbot - logs the irc channel itself to archives on the web. (Contact: Robert Bachmann)
+jibot
+Greeting Bot
+To display a brief description of who you are each time you join the channel, you can use “JiBot” to create a definition for your username. To do so pass the ?def command using something like the following convention (be brief):
+?def jdoe is John Doe and can be found online at http://www.example.com
+
+More information about using JiBot commands can be found on the jibot website
+Getting started with IRC
+Please note: These directions relate specifically to the services that Libera.chat offers. Other IRC servers may differ with the services they offer and how to operate them. You can also read a complete guide at https://libera.chat/guides
+Joining a server and channel
+Most clients will offer you a connection dialogue showing the required fields for connection. The details to connect to the server are:
+Server: irc.libera.chat
+Port: 6667 (usually default)
+You should also fill in any fields to set your alias, real name and email address. If available, save these settings for later to speed up connecting in future.
+More on setting a password protected alias can be read here.
+Once connected, you will most likely be presented with the "MOTD" (message of the day). For the first visit, it is advisable to read this to find out about the server's policies and other important pieces of news and help, otherwise it can be ignored and you can either authenticate your alias or join a channel.
+Your client may display to you a listing of all available channels. Locate #microformats and select to join, or type /join #microformats into the command line available to you in your client (where you've just been shown your connection).
+Assuming you've connected correctly, you should now find youself in the microformats channel!
+More detailed, but general, advice can be read here.
+Creating a registered nickname
+Registration means that a password becomes associated with your alias/nickname/sign-in name and from the point of registration authorisation is required to communicate using that alias.
+Registration of a nickname is required for some channels, and should be done to protect your identity.
+To register with Libera.chat, you must communicate with their service known as NickServ. The two basic command you will need to get started are:
+For registration: /msg nickserv register password email
+With password being a value of your choice. You must also associate an email address with your nickname
+Your client may offer you an option to set your alias and password, so that you will not have to manually enter this information on each join. Refer to your client's help files for more on this.
+These commands can be typed directly into the server window upon join, or whilst in a channel, just as you would normally send a message.
+More detailed user registration command information can be found in Libera's guides
+Communicating
+Sending a message to a channel may be as simple as joining the channel and typing into the window, just as you would with an Instant Messenger. You can refer to your client's help files for quicker/alternative methods of doing the following. For all clients the following commands are available (the parts in bold must be used, but are not seen by others):
+Sending a message to the entire channel you are currently in:
+
+Command: /msg Hello world!
+Result: <Bill> Hello world!
+Sending an action/emotive/3rd person statement:
+
+Command: /me dances a code jig
+Result: Bill dances a code jig
+Sending a message to one person only (private chat):
+
+Command: /msg Bob Hi, would you like to code jig?
+Result (for Bob only): <Bill> Hi, would you like to code jig?
+Clients
+The following clients are recommended by #microformats participants:
+
+
+Windows
+mIRC — Popular Windows client. Trial version only.
+X-Chat — Popular cross-platform client. Free Windows version available.
+AdiIRC — Simple C# based IRC client.
+Miranda — Lightweight, muti-protocol instant messenger.
+Mac
+Colloquy — open source, free
+Conversation
+Fire — open source, free
+Linkinus
+Minerva
+Snak
+X-Chat Aqua
+now has PortableApps version — MacUpdate link
+Xirc
+Cross-platform
+Pidgin — Popular open-source multi-protocol windows client, using libpurple
+Irssi — Unix client, often run from a shell, sometimes in conjunction with 'screen'.
+jIRCii
+meetups
+The idea of having IRC meetups (a set time for a meeting on IRC) has been suggested by Ryan King, as it appears to work well for the WordPress community and may help us from time-to-time. As of yet, there are no plans to have meetups.
+IRC and microformats
+hCard
+How do we maintain info about ircing in our hCards (nick, network, fav-channels?)?
+presumably this would be done with a URL. - Tantek 18:42, 30 July 2009 (UTC)
+Related discussions
+chat chat examples, chat formats, and chat brainstorming
+See also
+irc-meetups
+Other discussion fora
+Navigation menu
+
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Validate composer.json and composer.lock
+      run: composer validate --strict
+
+    - name: Cache Composer packages
+      id: composer-cache
+      uses: actions/cache@v3
+      with:
+        path: vendor
+        key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-php-
+
+    - name: Install dependencies
+      run: composer install --prefer-dist --no-progress
+
+    # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
+    # Docs: https://getcomposer.org/doc/articles/scripts.md
+
+    # - name: Run test suite
+    #   run: composer run-script test
